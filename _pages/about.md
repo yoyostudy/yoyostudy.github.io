@@ -25,23 +25,28 @@ My research interest includes Trustworthy AI.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">IEEE BigData 2024</div>
+      <img src='images/autored_thumb.png' alt="AutoRed thumbnail" width="100%">
+    </div>
+  </div>
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+  <div class='paper-box-text' markdown="1">
+  [**AutoRed: Automated Attack Scenario Generation Framework for Red Teaming of LLMs**](https://ieeexplore.ieee.org/document/10408347)  
+  **Zhe Wang**, M. A. Tayebi  
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+  [**Citation**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UjG0jpQAAAAJ&citation_for_view=UjG0jpQAAAAJ:XXXX)  
+  <strong><span class='show_paper_citations' data='UjG0jpQAAAAJ:XXXX'></span></strong>
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+  - We present **AutoRed**, a framework that generates diverse adversarial prompts to evaluate LLM defenses across 100+ strategies, achieving up to 80% success.
+  </div>
 </div>
-</div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2017.10* Awarded **First Prize** in the **Zhoushan Regional Round** of the **Chinese National High School Mathematics Olympiad (Zhejiang Province)**.
 
 # 📖 Educations
 - *2022.09 - 2024.9*, Simon Fraser Univeristy 
