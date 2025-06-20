@@ -24,15 +24,16 @@ My research interest includes Trustworthy AI.
 
 # 📝 Publications 
 
-<div>
-[AutoRed: Automated Attack Scenario Generation Framework for Red Teaming of LLMs](https://ieeexplore.ieee.org/abstract/document/10825267)  
+<div markdown="1">
+[**AutoRed: Automated Attack Scenario Generation Framework for Red Teaming of LLMs**](https://ieeexplore.ieee.org/abstract/document/10825267)  
 **Zhe Wang**, M. A. Tayebi  
 *Accepted at IEEE International Conference on Big Data (BigData) 2024*  
 - We present **AutoRed**, a framework that generates diverse adversarial prompts to evaluate LLM defenses.
 </div>
 
 # 🎖 Honors and Awards
-- *2017.10* Awarded **First Prize** in the **local Zhoushan division** of the **Chinese National High School Mathematics Olympiad (Zhejiang Province)**.
+- *2017.10* **First Prize**, Zhoushan division of the Zhejiang Provincial High School Mathematics Olympiad.
+
 
 # 📖 Educations
 - *2022.09 – 2024.05*, Computer Science M.Sc., Simon Fraser University
