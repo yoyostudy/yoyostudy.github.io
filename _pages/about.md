@@ -48,7 +48,7 @@ My research interest includes Trustworthy AI.
 - *2018.09 - 2022.07*, The Chinese University of Hong Kong, shenzhen. 
 
 # 💬 Invited Talks
-- *2025.09*, AI lunch & learn at SAP Canada, Vancouver office. 
+- *2025.09*, AI lunch $\&$ learn at SAP Canada, Vancouver office. 
 
 # 💻 Internships
 - *2024.09 - now*, SAP, Canada.
