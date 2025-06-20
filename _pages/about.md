@@ -55,5 +55,5 @@ My research interest includes neural machine translation and computer vision. I 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
 # 💻 Internships
-- *2024.09 - now, [SAP], Canada.
-- *2023.07 - 2023.09, [Hanglok-Tech](https://www.hanglok-tech.cn/), China
+- *2024.09 - now*, SAP, Canada.
+- *2023.07 - 2023.09*, [Hanglok-Tech](https://www.hanglok-tech.cn/), China
