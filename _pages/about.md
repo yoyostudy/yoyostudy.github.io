@@ -25,23 +25,10 @@ My research interest includes Trustworthy AI.
 
 # 📝 Publications 
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">IEEE BigData 2024</div>
-      <img src='images/autored_thumb.png' alt="AutoRed thumbnail" width="100%">
-    </div>
-  </div>
-
-  <div class='paper-box-text' markdown="1">
-  [**AutoRed: Automated Attack Scenario Generation Framework for Red Teaming of LLMs**](https://ieeexplore.ieee.org/document/10408347)  
-  **Zhe Wang**, M. A. Tayebi  
-
-  [**Citation**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UjG0jpQAAAAJ&citation_for_view=UjG0jpQAAAAJ:XXXX)  
-  <strong><span class='show_paper_citations' data='UjG0jpQAAAAJ:XXXX'></span></strong>
-
-  - We present **AutoRed**, a framework that generates diverse adversarial prompts to evaluate LLM defenses across 100+ strategies, achieving up to 80% success.
-  </div>
+<div class='paper-box-text' markdown="1">
+[**AutoRed: Automated Attack Scenario Generation Framework for Red Teaming of LLMs**](https://ieeexplore.ieee.org/document/10408347)  
+**Zhe Wang**, M. A. Tayebi 
+- We present **AutoRed**, a framework that generates diverse adversarial prompts to evaluate LLM defenses.
 </div>
 
 
