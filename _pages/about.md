@@ -33,7 +33,7 @@ My research interest includes Trustworthy AI.
 
 
 # 🎖 Honors and Awards
-- *2017.10* Awarded **First Prize** in the **Zhoushan Regional Round** of the **Chinese National High School Mathematics Olympiad (Zhejiang Province)**.
+- *2017.10* Awarded **First Prize** in the **local Zhoushan division** of the **Chinese National High School Mathematics Olympiad (Zhejiang Province)**.
 
 # 📖 Educations
 - *2022.09 - 2024.9*, Simon Fraser Univeristy 
