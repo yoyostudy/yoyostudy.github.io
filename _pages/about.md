@@ -20,7 +20,7 @@ redirect_from:
 My research interest includes Trustworthy AI. 
 
 # 🔥 News
-- *2025.06*: &nbsp;🎉 Participated in a hackathon with developers from my team at SAP.  
+- *2025.06*: &nbsp;🎉 Participated in a hackathon with developers from my team at SAP. 
 
 # 📝 Publications 
 
