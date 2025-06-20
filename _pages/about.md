@@ -35,8 +35,8 @@ My research interest includes Trustworthy AI.
 - *2017.10* Awarded **First Prize** in the **local Zhoushan division** of the **Chinese National High School Mathematics Olympiad (Zhejiang Province)**.
 
 # 📖 Educations
-- *2022.09 – 2024.09*, Computer Science M.Sc., **Simon Fraser University**
-- *2018.09 – 2022.07*, Mathematics and Applied Mathematics B.Sc., **The Chinese University of Hong Kong, Shenzhen**
+- *2022.09 – 2024.09*, Computer Science M.Sc., Simon Fraser University
+- *2018.09 – 2022.07*, Mathematics and Applied Mathematics B.Sc., The Chinese University of Hong Kong, Shenzhen
 
 # 💬 Invited Talks
 - *2025.09*, AI lunch and learn at SAP Canada, Vancouver office. 
