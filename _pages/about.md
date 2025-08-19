@@ -43,5 +43,5 @@ My research interest includes Trustworthy AI.
 - *2025.06*, _The Art of LLM Evaluation_, AI lunch and learn at SAP Canada, Vancouver office. 
 
 # 💻 Internships
-- *2024.09 - now*, SAP, Canada.
+- *2024.09 - 2025.08*, SAP, Canada.
 - *2023.07 - 2023.09*, [Hanglok-Tech](https://www.hanglok-tech.cn/), China
