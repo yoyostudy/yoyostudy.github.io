@@ -31,7 +31,7 @@ My primary research interest lies in the theoretical foundations of model struct
     <strong><a href="https://ieeexplore.ieee.org/abstract/document/10825267" target="_blank">AutoRed: Automated Attack Scenario Generation Framework for Red Teaming of LLMs</a></strong><br>
     <strong>Zhe Wang</strong>, M. A. Tayebi<br>
     <em>IEEE BigData 2024</em><br>
-    We present <strong>AutoRed</strong>, a framework that generates diverse adversarial prompts to evaluate LLM defenses.
+    We present <strong>AutoRed</strong>, a red-teaming framework that proactively generates adversarial prompts to challenge LLMs’ refusal strategies and safety alignment.
   </div>
 </div>
 
