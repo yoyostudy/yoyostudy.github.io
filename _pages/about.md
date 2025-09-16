@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-I'm a 1st year PhD student in Computer Science at Simon Fraser University, fortunate to be supervised by Dr. Linyi Li. 
+I'm a 1st year PhD student in Computer Science at Simon Fraser University, fortunate to be supervised by Dr. [Linyi Li](https://cs.sfu.ca/~linyi/) in the [Trustworthy AI (TAL) Lab](https://sfu-tai.github.io/). 
 
 My research spans theory and practice: focusing on model structure, trustworthy AI, and reinforcement learning in theory, and on socially responsible AI—covering red teaming, safety, and social impacts in practice.
 
@@ -26,15 +26,18 @@ My research spans theory and practice: focusing on model structure, trustworthy 
 # 📝 Publications 
 
 <div markdown="1">
+
+![AutoRed framework](/images/autored.png)
+
 [**AutoRed: Automated Attack Scenario Generation Framework for Red Teaming of LLMs**](https://ieeexplore.ieee.org/abstract/document/10825267)  
 **Zhe Wang**, M. A. Tayebi  
 *Accepted at IEEE International Conference on Big Data (BigData) 2024*  
 - We present **AutoRed**, a framework that generates diverse adversarial prompts to evaluate LLM defenses.
+
 </div>
 
-# 🎖 Honors and Awards
-- *2017.10* **First Prize**, Zhoushan division of the Zhejiang Provincial High School Mathematics Olympiad.
-
+<!-- # 🎖 Honors and Awards
+- *2017.10* **First Prize**, Zhoushan division of the Zhejiang Provincial High School Mathematics Olympiad. -->
 
 # 📖 Educations
 - *2022.09 – 2024.05*, M.Sc., Computer Science at Simon Fraser University
