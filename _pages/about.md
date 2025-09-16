@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-I'm a 1st year PhD student in Computer Science at Simon Fraser University, fortunate to be supervised by Dr. [Linyi Li](https://cs.sfu.ca/~linyi/) in the [Trustworthy AI (TAL) Lab](https://sfu-tai.github.io/). 
+I'm a 1st year PhD student in Computer Science at Simon Fraser University, fortunate to be supervised by Dr. [Linyi Li](https://cs.sfu.ca/~linyi/) in the [Trustworthy AI (TAI) Lab](https://sfu-tai.github.io/). 
 
 My primary research interest lies in the theoretical foundations of model structure, interpretability, learning algorithms, and reinforcement learning. At the same time, I care about socially responsible AI in practice, with applications in red teaming, safety, and AI governance.
 
@@ -40,7 +40,7 @@ My primary research interest lies in the theoretical foundations of model struct
 - *2017.10* **First Prize**, Zhoushan division of the Zhejiang Provincial High School Mathematics Olympiad. -->
 
 # 📖 Educations
-- *2025.09 – 2029.8* (Expected), Ph.d., Computer Science at Simon Fraser University
+- *2025.09 – 2029.08* (Expected), Ph.D., Computer Science at Simon Fraser University
 - *2022.09 – 2024.05*, M.Sc., Computer Science at Simon Fraser University
 - *2018.09 – 2022.07*, B.Sc., Mathematics and Applied Mathematics at The Chinese University of Hong Kong, Shenzhen
 
