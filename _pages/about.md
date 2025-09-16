@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 I'm a 1st year PhD student in Computer Science at Simon Fraser University, fortunate to be supervised by Dr. [Linyi Li](https://cs.sfu.ca/~linyi/) in the [Trustworthy AI (TAL) Lab](https://sfu-tai.github.io/). 
 
-My research spans theory and practice: focusing on model structure, trustworthy AI, and reinforcement learning in theory, and on socially responsible AI—covering red teaming, safety, and social impacts in practice.
+My primary interest lies in the theoretical foundations of model structure, interpretability, learning algorithms, and reinforcement learning. At the same time, I aim to translate these ideas into practice through socially responsible AI, with applications in red teaming, safety, and AI governance.
 
 # 🔥 News
 - *2025.06*: &nbsp;🎉🎉 Participated in a hackathon with developers from my team at SAP about AI model governance. 
@@ -28,10 +28,10 @@ My research spans theory and practice: focusing on model structure, trustworthy 
 <div style="display:flex;gap:12px;align-items:flex-start;">
   <img src="../images/autored.png" alt="AutoRed" style="width:200px;border-radius:6px;object-fit:cover;">
   <div>
-    **[AutoRed: Automated Attack Scenario Generation Framework for Red Teaming of LLMs](https://ieeexplore.ieee.org/abstract/document/10825267)**  
-    **Zhe Wang**, M. A. Tayebi  
-    *Accepted at IEEE BigData 2024*  
-    We present **AutoRed**, a framework that generates diverse adversarial prompts to evaluate LLM defenses.
+    <strong><a href="https://ieeexplore.ieee.org/abstract/document/10825267" target="_blank">AutoRed: Automated Attack Scenario Generation Framework for Red Teaming of LLMs</a></strong><br>
+    <strong>Zhe Wang</strong>, M. A. Tayebi<br>
+    <em>IEEE BigData 2024</em><br>
+    We present <strong>AutoRed</strong>, a framework that generates diverse adversarial prompts to evaluate LLM defenses.
   </div>
 </div>
 
