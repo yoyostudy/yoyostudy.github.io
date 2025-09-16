@@ -40,13 +40,13 @@ My primary research interest lies in the theoretical foundations of model struct
 - *2017.10* **First Prize**, Zhoushan division of the Zhejiang Provincial High School Mathematics Olympiad. -->
 
 # 📖 Educations
-- *2025.09 – 2029.08* (Expected), Ph.D., Computer Science at Simon Fraser University
-- *2022.09 – 2024.05*, M.Sc., Computer Science at Simon Fraser University
-- *2018.09 – 2022.07*, B.Sc., Mathematics and Applied Mathematics at The Chinese University of Hong Kong, Shenzhen
+- *2025.09 - 2029.08* (expected), Ph.D., Computer Science at Simon Fraser University
+- *2022.09 - 2024.05*, M.Sc., Computer Science at Simon Fraser University
+- *2018.09 - 2022.07*, B.Sc., Mathematics and Applied Mathematics at The Chinese University of Hong Kong, Shenzhen
 
 # 💬 Invited Talks
-- *2025.06*, _The Art of LLM Evaluation_, AI lunch and learn at SAP Canada, Vancouver office. 
+- *2025.06*, _The Art of LLM Evaluation_, AI Lunch and Learn at SAP Canada, Vancouver office. 
 
 # 💻 Internships
-- *2024.09 - 2025.08*, Data Scientist Intern, SAP, Canada.
+- *2024.09 - 2025.08*, Data Science Intern, SAP, Canada.
 - *2023.07 - 2023.09*, Machine Learning Researcher Intern, Hanglok-Tech, China
