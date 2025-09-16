@@ -25,16 +25,16 @@ My research spans theory and practice: focusing on model structure, trustworthy 
 
 # 📝 Publications 
 
-<div markdown="1">
-
-![AutoRed framework](/images/autored.png)
-
-[**AutoRed: Automated Attack Scenario Generation Framework for Red Teaming of LLMs**](https://ieeexplore.ieee.org/abstract/document/10825267)  
-**Zhe Wang**, M. A. Tayebi  
-*Accepted at IEEE International Conference on Big Data (BigData) 2024*  
-- We present **AutoRed**, a framework that generates diverse adversarial prompts to evaluate LLM defenses.
-
+<div style="display:flex;gap:12px;align-items:flex-start;">
+  <img src="../images/autored.png" alt="AutoRed" style="width:200px;border-radius:6px;object-fit:cover;">
+  <div>
+    **[AutoRed: Automated Attack Scenario Generation Framework for Red Teaming of LLMs](https://ieeexplore.ieee.org/abstract/document/10825267)**  
+    **Zhe Wang**, M. A. Tayebi  
+    *Accepted at IEEE BigData 2024*  
+    We present **AutoRed**, a framework that generates diverse adversarial prompts to evaluate LLM defenses.
+  </div>
 </div>
+
 
 <!-- # 🎖 Honors and Awards
 - *2017.10* **First Prize**, Zhoushan division of the Zhejiang Provincial High School Mathematics Olympiad. -->
