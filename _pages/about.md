@@ -21,7 +21,8 @@ I'm a 1st year PhD student in Computer Science at Simon Fraser University, fortu
 My primary research interest lies in the theoretical foundations of model structure, interpretability, learning algorithms, and reinforcement learning. At the same time, I care about socially responsible AI in practice, with applications in red teaming, safety, and AI governance.
 
 # 🔥 News
-- *2025.06*: &nbsp;🎉🎉 Participated in a hackathon with developers from my team at SAP about AI model governance. 
+- *2025.06*: &nbsp;🎉🎉 Participated in a hackathon with developers from my team at SAP about AI model governance.
+- *2026.01*: Completed PhD coursework and breadth exam requirements.
 
 # 📝 Publications 
 
