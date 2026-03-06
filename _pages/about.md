@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 I'm a 1st year PhD student in Computer Science at Simon Fraser University, fortunate to be supervised by Dr. [Linyi Li](https://cs.sfu.ca/~linyi/) in the [Trustworthy AI (TAI) Lab](https://sfu-tai.github.io/). 
 
-My primary research interest lies in the theoretical foundations of model structure, interpretability, learning algorithms, and reinforcement learning. At the same time, I care about socially responsible AI in practice, with applications in red teaming, safety, and AI governance.
+I am currently interested in analyzing **model depth**, mainly on the expressivity limitations. 
 
 # 🔥 News
 - *2026.01*: Completed PhD coursework and breadth exam requirements.
