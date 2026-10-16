@@ -49,7 +49,7 @@ I am broadly interested in large language models. In particular, I am interested
 - *2025.06*, _The Art of LLM Evaluation_, AI Lunch and Learn at SAP Canada, Vancouver office. 
 
 # 💻 Internships
-- *2026.02 - 2026.08*, Mitacs Research Intern, RBC Borealis, Canada.
+- *2026.01 - 2026.09*, Mitacs Research Intern, RBC Borealis, Canada.
 - *2024.09 - 2025.09*, Data Science Intern, SAP, Canada.
 - *2023.07 - 2023.09*, Machine Learning Researcher Intern, Hanglok-Tech, China
 
