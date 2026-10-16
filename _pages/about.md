@@ -41,7 +41,7 @@ I am broadly interested in large language models. In particular, I am interested
 - *2017.10* **First Prize**, Zhoushan division of the Zhejiang Provincial High School Mathematics Olympiad. -->
 
 # 📖 Educations
-- *2025.09 - 2029.08* (expected), Ph.D., Computer Science at Simon Fraser University
+- *2025.09 - now*, Ph.D., Computer Science at Simon Fraser University
 - *2022.09 - 2024.05*, M.Sc., Computer Science at Simon Fraser University
 - *2018.09 - 2022.07*, B.Sc., Mathematics and Applied Mathematics at The Chinese University of Hong Kong, Shenzhen
 
@@ -51,7 +51,7 @@ I am broadly interested in large language models. In particular, I am interested
 # 💻 Internships
 - *2026.01 - 2026.09*, Mitacs Research Intern, RBC Borealis, Canada.
 - *2024.09 - 2025.09*, Data Science Intern, SAP, Canada.
-- *2023.07 - 2023.09*, Machine Learning Researcher Intern, Hanglok-Tech, China
+- *2023.07 - 2023.09*, Machine Learning Research Intern, Hanglok-Tech, China.
 
 # 🖋️Services
 - Conference Reviewer: WWW, EMNLP
