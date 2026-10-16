@@ -41,7 +41,7 @@ I am broadly interested in large language models. In particular, I am interested
 - *2017.10* **First Prize**, Zhoushan division of the Zhejiang Provincial High School Mathematics Olympiad. -->
 
 # 📖 Educations
-- *2025.09 - now*, Ph.D., Computer Science at Simon Fraser University
+- *2025.09 - Present*, Ph.D., Computer Science at Simon Fraser University
 - *2022.09 - 2024.05*, M.Sc., Computer Science at Simon Fraser University
 - *2018.09 - 2022.07*, B.Sc., Mathematics and Applied Mathematics at The Chinese University of Hong Kong, Shenzhen
 
