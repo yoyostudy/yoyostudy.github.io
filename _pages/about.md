@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 I'm a 2nd year PhD student in Computer Science at Simon Fraser University, fortunate to be supervised by Dr. [Linyi Li](https://cs.sfu.ca/~linyi/) in the [Trustworthy AI (TAI) Lab](https://sfu-tai.github.io/). 
 
-I am currently interested in analyzing **model depth**, mainly on the expressivity limitations. 
+I am broadly interested in large language models. In particular, I am interested in **model architecture** (model depth, weight-tied looped models). At the same time, I care about **LLM security**, especially the potential threats that frontier LLMs may pose to society.
 
 # 🔥 News
 - *2026.01*: Completed PhD coursework and breadth exam requirements.
