@@ -50,7 +50,7 @@ I am broadly interested in large language models. In particular, I am interested
 
 # 💻 Internships
 - *2026.01 - 2026.09*, Mitacs Research Intern, RBC Borealis, Canada.
-- *2024.09 - 2025.09*, Data Science Intern, SAP, Canada. Built an automated AI pipeline for open-source license classification in the license compliance team, without labeled data.
+- *2024.09 - 2025.08*, Data Science Intern, SAP, Canada. Built an automated AI pipeline for open-source license classification in the license compliance team, without labeled data.
 - *2023.07 - 2023.09*, Machine Learning Research Intern, Hanglok-Tech, China.
 
 # 🖋️Services
