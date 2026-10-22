@@ -50,6 +50,9 @@ I am broadly interested in large language models. In particular, I am interested
 
 # 💻 Internships
 - *2026.01 - 2026.09*, Mitacs Research Intern, RBC Borealis, Canada.
+  - Identified a state-supervision mismatch in looped models such as tiny recursive models (TRMs): with deep supervision and gradient detachment, early steps are trained on answers they cannot yet derive.
+  - Designed adaptive supervision that trains each step only on what the model can already derive, improving Sudoku-Extreme accuracy by 7.9 points with up to 1.79× faster training.
+  - Resulted in a manuscript submitted to a conference for peer review.
 - *2024.09 - 2025.08*, Data Science Intern, SAP, Canada.
 - *2023.07 - 2023.09*, Machine Learning Research Intern, Hanglok-Tech, China.
 
