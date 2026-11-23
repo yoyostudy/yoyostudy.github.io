@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zhe Wang CV</title>
+<style>
+  @page { size: Letter; margin: 0.68in 0.86in 0.5in 0.73in; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: "Palatino", "Palatino Linotype", "TeX Gyre Pagella", "Book Antiqua", serif;
+    font-size: 10.25pt;
+    line-height: 1.17;
+    color: #000;
+  }
+  .header {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    border-bottom: 0.8pt solid #000; padding-bottom: 9pt; margin-bottom: 15pt;
+  }
+  .name { font-size: 26pt; font-variant: small-caps; letter-spacing: 0.3pt; line-height: 1; }
+  .contact { text-align: right; font-size: 9.6pt; line-height: 1.3; }
+  .contact a { color: inherit; text-decoration: none; }
+  .section { display: grid; grid-template-columns: 1.28in 1fr; margin-bottom: 15pt; }
+  .label {
+    font-family: "Gill Sans", "Gill Sans MT", "Gillius ADF No2", "Gillius ADF", sans-serif;
+    font-weight: 300; font-variant: small-caps; font-size: 11pt; line-height: 1.2;
+    padding-top: 1pt;
+  }
+  .entry { margin-bottom: 7pt; }
+  .entry:last-child { margin-bottom: 0; }
+  .row { display: flex; justify-content: space-between; }
+  .org { font-weight: bold; }
+  .sep { margin: 0 4pt; font-size: 9pt; }
+  .role { font-style: italic; }
+  ul { margin: 0; padding-left: 13pt; list-style: none; }
+  ul.wide { max-width: 5.1in; }
+  ul li::before { content: "\2022"; display: inline-block; width: 9pt; margin-left: -9pt; }
+  li { margin: 0; padding-left: 1pt; }
+  ol { margin: 0; padding-left: 13pt; }
+  .venue { font-style: italic; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="name">Zhe Wang</div>
+  <div class="contact">zwa204@sfu.ca<br><a href="https://yoyostudy.github.io">yoyostudy.github.io</a></div>
+</div>
+
+<div class="section">
+  <div class="label">Research<br>Interest</div>
+  <div>I am broadly interested in large language models. In particular, I am interested in <b>model architecture</b> (model depth, looped models, test-time training), <b>model training</b> (curriculum learning). In the meantime, I care about <b>LLM alignment</b>, especially the potential threats that frontier LLMs may pose to society.</div>
+</div>
+
+<div class="section">
+  <div class="label">Education</div>
+  <div>
+    <div class="entry">
+      <div class="row"><span class="org">Simon Fraser University</span><span>Vancouver, Canada</span></div>
+      <div class="row"><span class="role">Ph.D. in Computer Science</span><span>2025 - Present</span></div>
+      <ul>
+        <li>Advisor: Dr. Linyi Li</li>
+        <li>Research area: Large Reasoning Models and Trustworthy AI</li>
+      </ul>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="org">Simon Fraser University</span><span>Vancouver, Canada</span></div>
+      <div class="row"><span class="role">M.Sc. in Computer Science</span><span>2022 - 2024</span></div>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="org">The Chinese University of Hong Kong, Shenzhen</span><span>Shenzhen, China</span></div>
+      <div class="row"><span class="role">B.Sc. in Mathematics</span><span>2018 - 2022</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">Publications</div>
+  <div>
+    <ol>
+      <li><b>Zhe Wang</b>, Mohamad A. Tayebi. AutoRed: Automated Attack Scenario Generation Framework for Red Teaming of LLMs. <span class="venue">IEEE International Conference on Big Data (BigData), Industry &amp; Governance Track, 2024.</span></li>
+    </ol>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">Internships</div>
+  <div>
+    <div class="entry">
+      <div class="row"><span><span class="org">RBC Borealis</span><span class="sep">|</span>Vancouver, Canada</span><span>2026.01 – 2026.09</span></div>
+      <div class="role">Mitacs Research Intern</div>
+      <ul class="wide">
+        <li>Identified a state-supervision mismatch in looped models such as tiny recursive models (TRMs): with deep supervision and gradient detachment, early steps are trained on answers they cannot yet derive.</li>
+        <li>Designed adaptive supervision that trains each step only on what the model can already derive, improving Sudoku-Extreme accuracy by 7.9 points with up to 1.79× faster training and outperforming curriculum learning and diffusion-style supervision baselines.</li>
+        <li>Revealed that supervision shapes the recursive dynamics: under adaptive supervision the recursion settles and keeps its correct answers, so additional <span style="white-space:nowrap">test-time</span> iterations keep improving accuracy, whereas dense supervision leaves the recursion drifting and overwriting solved answers.</li>
+        <li>Resulted in a manuscript under review at a major machine learning conference.</li>
+      </ul>
+    </div>
+    <div class="entry">
+      <div class="row"><span><span class="org">SAP Canada Inc.</span><span class="sep">|</span>Vancouver, Canada</span><span>2024.09 – 2025.08</span></div>
+      <div class="role">Research and Development Intern</div>
+      <ul class="wide">
+        <li>Post-trained 8B-parameter language models (SFT, LoRA, DPO, GRPO) for software license-permission extraction and classification.</li>
+        <li>Developed a Retrieval-Augmented Generation (RAG) system using LangGraph, fully integrated with SAP AI Core for domain-specific retrieval.</li>
+        <li>Improved structured output reliability by transitioning from JSON prompting to function-calling with Pydantic, reducing schema violations and hallucinations.</li>
+        <li>Deployed 4-bit and 8-bit quantized models with Ollama on GPU (GCP) and CPU to support lightweight demos.</li>
+      </ul>
+    </div>
+    <div class="entry">
+      <div class="row"><span><span class="org">Hanglok-Tech</span><span class="sep">|</span>Shenzhen, China</span><span>2023.07 – 2023.09</span></div>
+      <div class="role">Machine Learning Research Intern</div>
+      <ul class="wide">
+        <li>Improved robotic control performance in Panda-Gym using DDPG (Stable Baselines3).</li>
+        <li>Applied GAIL in Isaac Gym for real-time humanoid motion imitation.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">Service</div>
+  <div>Conference Reviewer: WWW, EMNLP</div>
+</div>
+
+</body>
+</html>
