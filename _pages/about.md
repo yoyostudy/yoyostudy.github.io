@@ -18,8 +18,6 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 I'm a 2nd year PhD student in Computer Science at Simon Fraser University, fortunate to be supervised by Dr. [Linyi Li](https://cs.sfu.ca/~linyi/) in the [Trustworthy AI (TAI) Lab](https://sfu-tai.github.io/). 
 
-My undergraduate training in Mathematics and Applied Mathematics at CUHK-Shenzhen sparked my interest in algebra. I am drawn to structured problems and to models that can exploit their structure.
-
 I am broadly interested in large language models. My research interests include:
 
 - **Model architecture:** [model depth](s5_blog_preview_conclusion.html), looped models, and test-time training.
@@ -42,7 +40,6 @@ I am broadly interested in large language models. My research interests include:
     We present <strong>AutoRed</strong>, a red-teaming framework that proactively generates adversarial prompts to challenge LLMs’ refusal strategies and safety alignment.
   </div>
 </div>
-
 
 <!-- # 🎖 Honors and Awards
 - *2017.10* **First Prize**, Zhoushan division of the Zhejiang Provincial High School Mathematics Olympiad. -->
