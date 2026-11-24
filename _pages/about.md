@@ -18,7 +18,13 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 I'm a 2nd year PhD student in Computer Science at Simon Fraser University, fortunate to be supervised by Dr. [Linyi Li](https://cs.sfu.ca/~linyi/) in the [Trustworthy AI (TAI) Lab](https://sfu-tai.github.io/). 
 
-I am broadly interested in large language models. In particular, I am interested in **model architecture** ([model depth](s5_blog_preview_conclusion.html), looped models, test-time training), **model training** ([curriculum learning](s5_blog_preview_conclusion.html)). At the same time, I care about [**LLM alignment**](#-publications), especially the potential threats that frontier LLMs may pose to society.
+My undergraduate training in Mathematics and Applied Mathematics at CUHK-Shenzhen sparked my interest in algebra. I am drawn to structured problems and to models that can exploit their structure.
+
+I am broadly interested in large language models. My research interests include:
+
+- **Model architecture:** [model depth](s5_blog_preview_conclusion.html), looped models, and test-time training.
+- **Model training:** [curriculum learning](s5_blog_preview_conclusion.html).
+- **LLM alignment:** Potential threats that frontier LLMs may pose to society.
 
 # 🔥 News
 - *2026.11*: Dumped my first blog on model depth: [When Attention Learns Group Composition](s5_blog_preview_conclusion.html).
