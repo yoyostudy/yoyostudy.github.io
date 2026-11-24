@@ -48,6 +48,9 @@ I am broadly interested in large language models. In particular, I am interested
 # 💬 Invited Talks
 - *2025.06*, _The Art of LLM Evaluation_, AI Lunch and Learn at SAP Canada, Vancouver office. 
 
+# 📝 Blog
+- [When Attention Learns Group Composition](s5_blog_preview_conclusion.html)
+
 # 💻 Internships
 - *2026.01 - 2026.09*, Mitacs Research Intern, RBC Borealis, Canada.
 - *2024.09 - 2025.08*, Research and Development Intern, SAP, Canada.
