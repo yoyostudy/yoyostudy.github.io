@@ -21,7 +21,7 @@ I'm a 2nd year PhD student in Computer Science at Simon Fraser University, fortu
 I am broadly interested in large language models. In particular, I am interested in **model architecture** ([model depth](s5_blog_preview_conclusion.html), looped models, test-time training), **model training** ([curriculum learning](s5_blog_preview_conclusion.html)). At the same time, I care about [**LLM alignment**](#-publications), especially the potential threats that frontier LLMs may pose to society.
 
 # 🔥 News
-- *2026.11*: Published my first blog on model depth: [When Attention Learns Group Composition](s5_blog_preview_conclusion.html).
+- *2026.11*: Dumped my first blog on model depth: [When Attention Learns Group Composition](s5_blog_preview_conclusion.html).
 - *2026.01*: Completed PhD coursework and breadth exam requirements.
 - *2025.06*: &nbsp;🎉🎉 Participated in a hackathon with developers from my team at SAP about AI model governance.
 

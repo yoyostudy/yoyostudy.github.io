@@ -3,14 +3,15 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
-  - title: "Blog"
-    url: "/s5_blog_preview_conclusion.html"
 
   - title: "News"
     url: "/#-news"
 
   - title: "Publications"
     url: "/#-publications"
+
+  - title: "Blog"
+    url: "/s5_blog_preview_conclusion.html"
 
   # - title: "Honors and Awards"
   #   url: "/#-honors-and-awards"
