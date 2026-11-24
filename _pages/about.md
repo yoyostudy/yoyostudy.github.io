@@ -22,7 +22,7 @@ I am broadly interested in large language models. My research interests include:
 
 - **Model architecture:** [model depth](s5_blog_preview_conclusion.html), looped models, and test-time training.
 - **Model training:** [curriculum learning](s5_blog_preview_conclusion.html).
-- **LLM alignment:** Potential threats that frontier LLMs may pose to society.
+- **LLM alignment:** Red teaming; potential threats that frontier LLMs may pose to society.
 
 # 🔥 News
 - *2026.11*: Dumped my first blog on model depth: [When Attention Learns Group Composition](s5_blog_preview_conclusion.html).
