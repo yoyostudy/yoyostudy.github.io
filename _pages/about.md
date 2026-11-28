@@ -50,8 +50,7 @@ I am broadly interested in large language models. My research interests include:
 - *2018.09 - 2022.07*, B.Sc., Mathematics and Applied Mathematics at The Chinese University of Hong Kong, Shenzhen
 
 # 💬 Talks
-- *2026.10*, _Ongoing work on looped models_ ([slides](files/astrm_slides.pdf)), Paper Forward Session at SFU.
-- *2026.09*, _Ongoing work on looped models_ ([slides](files/astrm_slides.pdf)), RBC office.
+- *2026.09, 2026.10*, _Ongoing work on looped models_ ([slides](files/astrm_slides.pdf)), RBC office; Paper Forward Session at SFU.
 - *2025.06*, _The Art of LLM Evaluation_, AI Lunch and Learn at SAP Canada, Vancouver office. 
 
 # 📝 Blog
