@@ -25,6 +25,8 @@ I am broadly interested in large language models. My current research interests 
 - **Curriculum learning** ([blog](s5_blog_preview_conclusion.html), [slides](files/astrm_slides.pdf))
 - **LLM alignment:** red teaming ([paper](https://ieeexplore.ieee.org/abstract/document/10825267)), potential threats that frontier LLMs may pose to society
 
+Before this, I worked with Dr. Mohammad A. Tayebi on LLM alignment, where I developed AutoRed ([paper](https://ieeexplore.ieee.org/abstract/document/10825267)), an automated framework that generates attack scenarios to red-team LLMs.
+
 # 🔥 News
 - *2026.11*: Dumped my first blog on model depth: [When Attention Learns Group Composition](s5_blog_preview_conclusion.html).
 - *2026.01*: Completed PhD coursework and breadth exam requirements.
