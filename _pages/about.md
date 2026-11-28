@@ -49,7 +49,7 @@ I am broadly interested in large language models. My research interests include:
 - *2022.09 - 2024.05*, M.Sc., Computer Science at Simon Fraser University
 - *2018.09 - 2022.07*, B.Sc., Mathematics and Applied Mathematics at The Chinese University of Hong Kong, Shenzhen
 
-# 💬 Invited Talks
+# 💬 Talks
 - *2025.06*, _The Art of LLM Evaluation_, AI Lunch and Learn at SAP Canada, Vancouver office. 
 
 # 📝 Blog
