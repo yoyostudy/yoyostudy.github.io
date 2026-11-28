@@ -2,7 +2,7 @@
 
 <html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>When Attention Learns Group Composition</title><style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:#242424;font:15px/1.6 -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}main{max-width:780px;margin:auto;padding:38px 26px 56px}header{padding-bottom:18px;border-bottom:1px solid #dedede}h1{font-size:27px;font-weight:600;letter-spacing:-.035em;line-height:1.2;margin:12px 0 9px}header p{font-size:15px;line-height:1.5;color:#555;margin:0 0 8px}h2{font-size:19px;font-weight:600;letter-spacing:-.02em;line-height:1.4;margin:0 0 12px}h3,.pair h3{font-size:15px;font-weight:600;line-height:1.4;margin:12px 0 6px}section{padding:26px 0;border-bottom:1px solid #e4e4e4}p{margin:8px 0;max-width:690px}.eyebrow,.meta,figcaption,.note,nav{font-size:12px;color:#666}.eyebrow{letter-spacing:.04em;font-weight:500}nav{display:flex;gap:6px 15px;flex-wrap:wrap;margin-top:14px}a{color:#356a9d;text-decoration:none}a:hover{text-decoration:underline}.math{font:italic 19px/1.5 Georgia,serif;text-align:center;margin:13px 0}.grid,.compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.panel{padding:0}.panel h3{margin-top:0}.diagram{display:flex;align-items:center;justify-content:center;gap:5px;flex-wrap:wrap;font-size:12px;padding:9px 0}.node{border-bottom:1px solid #aaa;padding:4px 3px}.arrow{font-size:14px;color:#777}figure{margin:0}img{width:100%;height:auto;display:block}figcaption{margin-top:5px;line-height:1.4}.pair{margin:22px 0 26px}.pair h3{margin:0 0 3px}.pair .math{text-align:left;margin:5px 0 11px}.compare a{display:block}.label{font-size:11px;font-weight:500;color:#666;margin:0 0 6px}table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums;margin:12px 0}th,td{text-align:right;border-bottom:1px solid #e5e5e5;padding:6px 8px}th:first-child,td:first-child{text-align:left}th{font-weight:600}pre{background:#fafafa;padding:10px;overflow:auto;font:13px/1.5 monospace}details{border-bottom:1px solid #ddd;padding:8px 0}summary{cursor:pointer;font-size:13px}footer{margin-top:24px;color:#666;font-size:12px}svg{max-width:100%;height:auto}.gallery{gap:16px}.gallery a{font-size:13px}.gallery figure{margin:0}button,select{font:inherit}li{margin:4px 0} @media(max-width:520px){main{padding:24px 17px 40px}h1{font-size:23px}h2{font-size:17px}section{padding:21px 0}.grid{grid-template-columns:1fr;gap:15px}.compare{grid-template-columns:1fr;gap:12px}header p{font-size:14px}.math{font-size:17px}.pair{margin:16px 0 22px}}main{max-width:850px;padding:28px 22px 50px}h1{font-size:24px;letter-spacing:-.02em}h2{font-size:18px;letter-spacing:0}section{padding:20px 0}header{padding-bottom:12px}a{color:#337ab7}@media(max-width:520px){h1{font-size:22px}}#reading .reading-list{padding-left:20px;font-size:13px;line-height:1.5;margin:8px 0 16px}#reading h3{margin-top:16px}
 .construction{margin:16px 0 20px;padding:0 0 14px;border-bottom:1px solid #e5e5e5}.construction:last-of-type{border-bottom:0}.construction details{border:0;padding:0;margin-top:9px}.construction summary{display:list-item;list-style-position:inside;width:fit-content;color:#337ab7;font-size:14px;cursor:pointer;padding:4px 0}.construction summary:focus-visible{outline:2px solid #337ab7;outline-offset:3px}.derivation{border-left:2px solid #ddd;margin:8px 0 2px;padding:2px 0 2px 14px}.derivation .math{font-size:16px;overflow-x:auto}.construction-example{margin-bottom:16px}.hybrid-diagram{display:grid;grid-template-columns:1fr 1fr;gap:16px;text-align:center;margin-top:12px}.hybrid-diagram>div{border-bottom:1px solid #ddd;padding:5px 0}.hybrid-diagram span{font-size:13px}.hybrid-diagram .math{margin:6px 0;font-size:17px}.hybrid-out{margin-top:5px}.depth-plot{max-width:460px;margin:10px auto}.depth-plot svg{display:block;width:100%;height:auto}.depth-plot svg text{stroke:none}.construction .math{overflow-x:auto}.tags{display:flex;gap:8px;margin:10px 0 0}.tags span{border:1px solid #ddd;border-radius:999px;color:#666;font-size:11px;padding:2px 8px}</style><style>
-#construction math[display=block]{margin:1rem 0;font-size:1.15rem}
+#construction .equation{margin:1rem 0;overflow-x:auto}
 #construction h3{margin-top:1.6rem}
 #construction summary{width:fit-content;cursor:pointer;color:#337ab7}
 .embedding-scroll{overflow-x:auto;border:1px solid #dcdfe4;border-radius:8px}
@@ -22,7 +22,8 @@
 #construction .lookup-example th,#construction .lookup-example td{min-width:2.3rem;border:1px solid #dcdfe4;padding:.3rem .5rem;text-align:center}
 #construction .lookup-example strong{display:block;background:#e7f1fd;color:#174a7c}
 #construction .embedding-scroll{margin-top:.6rem}
-</style></head><body><main><header><p class="meta"><a href="/">Homepage</a> / <a href="/#-blog">Blog</a></p><h1>When Attention Learns Group Composition</h1><p>Architectural depth, reasoning depth, and the word problem of S<sub>5</sub>.</p><div class="tags"><span>Model Depth</span><span>Curriculum Learning</span></div></header>
+</style><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+</head><body><main><header><p class="meta"><a href="/">Homepage</a> / <a href="/#-blog">Blog</a></p><h1>When Attention Learns Group Composition</h1><p>Architectural depth, reasoning depth, and the word problem of S<sub>5</sub>.</p><div class="tags"><span>Model Depth</span><span>Curriculum Learning</span></div></header>
 <section id="problem"><h2>A small group, a hard problem</h2><div class="math">S<sub>5</sub> = Sym({1, 2, 3, 4, 5})</div><div class="math">Y = π<sub>1</sub> ∘ π<sub>2</sub> ∘ ··· ∘ π<sub>T</sub></div><pre>Input   (12345)(12345)(23451)
 Output  (23451)</pre><p><i>S</i><sub>5</sub> is the smallest nonsolvable symmetric group. Its commutator subgroup is <i>A</i><sub>5</sub>, a nonabelian simple group with [<i>A</i><sub>5</sub>, <i>A</i><sub>5</sub>] = <i>A</i><sub>5</sub>.</p>
 <p><a href="https://people.cs.umass.edu/~barring/publications/bwbp.pdf">Barrington’s theorem</a> shows that the decision word problem for a fixed finite nonsolvable group—whether a word multiplies to the identity—is NC<sup>1</sup>-complete under AC<sup>0</sup> reductions. We study a related task: given <i>T</i> permutations in S<sub>5</sub>, predict their full product. As <i>T</i> grows, the model must compose a longer sequence.</p></section>
@@ -31,18 +32,21 @@ Output  (23451)</pre><p><i>S</i><sub>5</sub> is the smallest nonsolvable symmetr
 <h2>Computing permutation composition in one layer</h2>
 
 <h3>Theorem 1</h3>
-<blockquote class="theorem"><p>Given a full-attention transformer model with <i>L</i> layers, <i>H</i> attention heads (multi-head attention), <i>D</i><sub>H</sub> attention dimension, and <i>D</i><sub>F</sub> feed-forward layer intermediate dimension, the length of the word problem it can solve is no smaller than <i>f</i><sub>l</sub>(<i>L</i>, <i>H</i>, <i>D</i><sub>H</sub>, <i>D</i><sub>F</sub>).</p></blockquote>
-<p>This is the general statement from the study draft, where the function <i>f</i><sub>l</sub> is left to be derived. Proposition 1 gives the single-layer construction for three permutations.</p>
+<blockquote class="theorem"><p>Given a full-attention transformer model with <i>L</i> layers, <i>H</i> attention heads (multi-head attention), <i>D</i><sub>H</sub> attention dimension, and <i>D</i><sub>F</sub> feed-forward layer intermediate dimension, the length of the word problem it can solve is no smaller than \(f_l(L,H,D_H,D_F)\).</p></blockquote>
+<p>This is the general statement from the study draft, where the function \(f_l\) is left to be derived. Proposition 1 gives the single-layer construction for three permutations.</p>
 
 <h3>Proposition 1 (Existence)</h3>
 <blockquote class="theorem">
 <p>Given the sequence</p>
 <div class="math">[T1] z₁ z₂ z₃ z₄ z₅ [T2] &nbsp; [T1] x₁ x₂ x₃ x₄ x₅ [T2] &nbsp; [T1] y₁ y₂ y₃ y₄ y₅ [T2],</div>
-<p>there exists a one-layer multi-head transformer block such that the output at the position of <i>y</i><sub>i</sub> encodes <i>z</i><sub><i>x</i><sub><i>y</i><sub>i</sub></sub></sub>.</p>
+<p>there exists a one-layer multi-head transformer block such that the output at the position of <i>y</i><sub>i</sub> encodes \(e_{z_{x_{y_i}}}\).</p>
 </blockquote>
 
 <h3>Follow one input</h3>
 <p>Each row below is a lookup table. Start in column 1 of <i>Y</i> and read 3. Go to column 3 of <i>X</i> and read 2. Finally, go to column 2 of <i>Z</i> and read 5. So the output at <i>Y</i><sub>1</sub> is 5.</p>
+<div class="equation">\[
+1 \xrightarrow{y} 3 \xrightarrow{x} 2 \xrightarrow{z} 5
+\]</div>
 <table class="lookup-example">
 <thead><tr><th scope="col">Position</th><th scope="col">1</th><th scope="col">2</th><th scope="col">3</th><th scope="col">4</th><th scope="col">5</th></tr></thead>
 <tbody>
@@ -80,16 +84,33 @@ Output  (23451)</pre><p><i>S</i><sub>5</sub> is the smallest nonsolvable symmetr
 </details>
 
 <h3>Proof</h3>
-<p><strong>Attention.</strong> Write <i>e</i><sub>j</sub> for the one-hot vector with its 1 in coordinate <i>j</i>. At <i>Y</i><sub>i</sub>, the lookup head reads the value block as the query. It reads the <i>X</i> position block as the key and the value block as the value. Only <i>X</i><sub><i>Y</i>(<i>i</i>)</sub> has a matching key. Copy head <i>k</i> reads coordinate <i>k</i> of the <i>Z</i> position block as its key, with query 1 (the sum of the <i>Y</i> position coordinates). Only <i>Z</i><sub>k</sub> matches. All six source positions are visible at <i>Y</i><sub>i</sub> under causal attention.</p>
-<p>With exact selection, the output projection puts the lookup vector <i>r</i> in columns 21–25, and the five copies <i>c</i><sub>1</sub> through <i>c</i><sub>5</sub> in columns 26–50. In our example, <i>r</i> is <i>e</i><sub>2</sub> and the second copy is <i>e</i><sub>5</sub>.</p>
-<p><strong>FFN.</strong> A ReLU gate checks whether the lookup selected slot <i>k</i> and that slot contains value <i>j</i>. Sum over the five slots to get output coordinate <i>j</i>.</p>
-<math display="block"><mrow><msub><mi>o</mi><mi>j</mi></msub><mo>=</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>5</mn></munderover><mi mathvariant="normal">ReLU</mi><mo>(</mo><msub><mi>r</mi><mi>k</mi></msub><mo>+</mo><msub><mi>c</mi><mrow><mi>k</mi><mo>,</mo><mi>j</mi></mrow></msub><mo>−</mo><mn>1</mn><mo>)</mo><mo>.</mo></mrow></math>
-<p>Exactly one gate fires: the one for slot 2 and value 5 in the example. In general it is the gate for slot <i>X</i>(<i>Y</i>(<i>i</i>)) and the value of <i>Z</i> at that slot. The FFN writes that value as a one-hot vector into columns 51–55.</p>
+<p><strong>Attention.</strong> At position \(t_{y_i}\), the lookup head reads the value block \(e_{y_i}\) as its query. At the position of \(x_j\), it reads \(e_j\) as its key and \(e_{x_j}\) as its value. The dot product is 1 exactly when \(j=y_i\), so the lookup head selects \(e_{x_{y_i}}\). Five other heads use the position coordinates to copy \(e_{z_1},\ldots,e_{z_5}\). The output projection puts the six head outputs in separate slots.</p>
+<div class="equation">\[
+\begin{bmatrix}
+e_{x_{y_i}}\\
+e_{z_1}\\
+e_{z_2}\\
+e_{z_3}\\
+e_{z_4}\\
+e_{z_5}
+\end{bmatrix}
+\xrightarrow{\;\mathrm{FFN}\;}
+e_{z_{x_{y_i}}}.
+\]</div>
+<p><strong>Feed-forward network.</strong> The first slot tells the network which of the next five slots to select. A ReLU gate for slot \(k\) and value \(j\) reads coordinate \(k\) of the first slot and coordinate \(j\) of slot \(k\).</p>
+<div class="equation">\[
+\operatorname{ReLU}\!\left(
+  (e_{x_{y_i}})_k + (e_{z_k})_j - 1
+\right).
+\]</div>
+<p>Only the gate for \(k=x_{y_i}\) and \(j=z_k\) fires. Summing its contribution yields \(e_{z_{x_{y_i}}}\), which the network writes into columns 51–55.</p>
 
 <details><summary>Exact output with finite softmax scores</summary>
 <p>Equation (7) in the draft uses the limiting attention output. To get an exact one-hot output at a finite score, scale the unique matching logit to β and leave all others at zero. With at most 14 other visible tokens, choosing exp(β) &gt; 98 gives the matching token weight greater than 7/8. Each retrieved or copied vector then has its target coordinate above 7/8 and all others below 1/8.</p>
 <p>Let <i>s</i> be the sum of the two input coordinates of a gate. For the correct gate, <i>s</i> is above 7/4. For every other gate, it is below 5/4. Replace each ideal gate with the following pair of ReLUs. It returns exactly 1 for the correct gate and 0 for the others.</p>
-<math display="block"><mrow><mi>g</mi><mo>(</mo><mi>s</mi><mo>)</mo><mo>=</mo><mn>2</mn><mo>[</mo><mi mathvariant="normal">ReLU</mi><mo>(</mo><mi>s</mi><mo>−</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>)</mo><mo>−</mo><mi mathvariant="normal">ReLU</mi><mo>(</mo><mi>s</mi><mo>−</mo><mfrac><mn>7</mn><mn>4</mn></mfrac><mo>)</mo><mo>]</mo><mo>.</mo></mrow></math>
+<div class="equation">\[
+g(s)=2\Bigl[\operatorname{ReLU}(s-\tfrac54)-\operatorname{ReLU}(s-\tfrac74)\Bigr].
+\]</div>
 <p>The coordinate projections here use a residual block with layer normalization omitted.</p>
 </details>
 
