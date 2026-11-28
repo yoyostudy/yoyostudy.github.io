@@ -21,7 +21,7 @@ I'm a 2nd year PhD student in Computer Science at Simon Fraser University, fortu
 I am broadly interested in large language models. My research interests include:
 
 - **Model architecture:** model depth ([blog](s5_blog_preview_conclusion.html)), looped models ([slides](files/astrm_slides.pdf)), and test-time training.
-- **Model training:** curriculum learning ([blog](s5_blog_preview_conclusion.html)).
+- **Model training:** curriculum learning ([slides](files/astrm_slides.pdf)).
 - **LLM alignment:** red teaming ([paper](https://ieeexplore.ieee.org/abstract/document/10825267)), potential threats that frontier LLMs may pose to society.
 
 # 🔥 News
