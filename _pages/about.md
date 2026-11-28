@@ -61,8 +61,8 @@ Before this, I worked with Dr. [Mohammad A. Tayebi](https://www.sfu.ca/~mat15/) 
 - [When Attention Learns Group Composition](s5_blog_preview_conclusion.html)
 
 # 💻 Internships
-- *2026.01 - 2026.09*, Mitacs Research Intern, RBC Borealis, Canada.
-- *2024.09 - 2025.08*, Research and Development Intern, SAP, Canada.
+- *2026.01 - 2026.09*, Mitacs Research Intern, RBC Borealis, Canada. Mentored by Siqi Liu.
+- *2024.09 - 2025.08*, Research and Development Intern, SAP, Canada. Mentored by Millie Lou.
 - *2023.07 - 2023.09*, Machine Learning Research Intern, Hanglok-Tech, China.
 
 # 🖋️Services
